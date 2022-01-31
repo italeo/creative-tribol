@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html{
+  height: 100%;
+  }
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', san-sans-serif;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+img {
+  width: 100%;
+  height: 100vh;
+}
+p {
+  padding: 35px;
+}
+h6 {
+  padding: 30px;
+}
+.navbar {
+  padding: .8rem;
+}
+.navbar-nav li{
+  padding-right: 20px;
+}
+.nav-link {
+  font-size: 1.1em !important;
+}
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.caption-carousel h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #000;
+}
+.carousel-item {
+  height: 100rem;
+}
+#slides {
+  height: 100%;
+}
+.background-image {
+  height: 500px;
+  width: 100%;
+}
+.footer {
+  position: relative;
+  margin-top: -180px;
+  /* negative value of footer height */
+  height: 180px;
+  clear: both;
+  background-color: #F0F8FF;
+  margin-top: auto;
+}
+.wrapper {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Poppins', san-sans-serif;
+}
+.people-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.image-people {
+  padding: 0 20px 20px;
+  width: 100px;
+  height: 100px;
+}
+img:hover {
+  opacity: .5;
+  transition: .9s;
+}
